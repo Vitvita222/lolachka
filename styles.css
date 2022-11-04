@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(62, 62, 62);
+}
+
+.container{
+    position: absolute;
+    left: 550px;
+    top: 250px;
+    width: 0px;
+    height: 200px;
+}
+
+.input1{
+    background-color: transparent;
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+    color: goldenrod;
+}
+
+.input2{
+    display: flex ;
+    flex-wrap: nowrap;
+    background-color: transparent;
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+    color: goldenrod;
+}
+
+.mimateba{
+    position: relative;
+    background-color: transparent;
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+    color: goldenrod;
+    width: 87.5px;
+    height: 30px;
+    top: 20px;
+    left: 44px;
+    transition: 0.2s;
+}
+
+.mimateba:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
+
+.pliusi{
+    position: relative;
+    left: 80px;
+    color: goldenrod;
+    font-size: 23px;
+}
+
+.udrisi{
+    position: relative;
+    left: 80px;
+    color: goldenrod;
+    font-size: 23px;
+}
+
+.jami1{
+    width: 175px;
+    height: 18px;
+    background-color: transparent;
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+    color: goldenrod;
+}
+
+@media screen and (max-width: 725px){
+    .container {
+        position: absolute;
+        left: 40%;
+    }
+}
+
+@media screen and (max-width: 672px){
+    .container {
+        position: absolute;
+        left: 40%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .container {
+        position: absolute;
+        left: 30%;
+    }
+}
+
+@media screen and (max-width: 310px){
+    .container {
+        position: absolute;
+        left: 20%;
+    }
+}
+
+@media screen and (max-width: 230px){
+    .container {
+        position: absolute;
+        left: 10%;
+    }
+}
