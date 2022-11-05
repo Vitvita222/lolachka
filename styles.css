@@ -2,7 +2,21 @@ body{
     background-color: rgb(62, 62, 62);
 }
 
-.container{
+.divtadivi{
+    position: absolute;
+    left: 100px;
+}
+
+/* mimateba */
+.containergamokleba{
+    position: absolute;
+    left: 850px;
+    top: 250px;
+    width: 0px;
+    height: 200px;
+}
+
+.containermimateba{
     position: absolute;
     left: 550px;
     top: 250px;
@@ -25,6 +39,7 @@ body{
     border-radius: 5px;
     color: goldenrod;
 }
+
 
 .mimateba{
     position: relative;
@@ -68,37 +83,83 @@ body{
     color: goldenrod;
 }
 
-@media screen and (max-width: 725px){
-    .container {
+
+/* gamokleba*/
+.input1-1{
+    background-color: transparent;
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+    color: goldenrod;
+}
+
+.input2-1{
+    background-color: transparent;
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+    color: goldenrod;
+}
+.sxvaoba{
+    width: 175px;
+    height: 18px;
+    background-color: transparent;
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+    color: goldenrod;
+}
+
+.gamokleba{
+    position: relative;
+    background-color: transparent;
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+    color: goldenrod;
+    width: 87.5px;
+    height: 30px;
+    top: 20px;
+    left: 44px;
+    transition: 0.2s;
+}
+
+.gamokleba:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
+
+
+
+
+@media screen and (max-width: 986px){
+    .divtadivi {
         position: absolute;
-        left: 40%;
+        left: -250px;
     }
 }
 
-@media screen and (max-width: 672px){
-    .container {
+@media screen and (max-width: 786px){
+    .divtadivi {
         position: absolute;
-        left: 40%;
+        left: -400px;
     }
 }
 
-@media screen and (max-width: 400px){
-    .container {
+@media screen and (max-width: 638px){
+    .divtadivi {
         position: absolute;
-        left: 30%;
+        left: -470px;
     }
 }
 
-@media screen and (max-width: 310px){
-    .container {
+@media screen and (max-width: 564px){
+    .divtadivi {
         position: absolute;
-        left: 20%;
+        left: -505px;
     }
 }
 
-@media screen and (max-width: 230px){
-    .container {
+@media screen and (max-width: 530px){
+    .divtadivi {
         position: absolute;
-        left: 10%;
+        left: -525px;
     }
 }
